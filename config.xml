@@ -35,6 +35,9 @@
     <icon src="icon.png" />
     <splash src="resources/splash.png" />
     <icon src="resources/icon.jpg" />
+	<feature name="InAppBrowser">
+		<param name="ios-package" value="CDVInAppBrowser" />
+	</feature>
     <platform name="android">
         <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
